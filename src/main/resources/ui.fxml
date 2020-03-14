@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="401.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+
+
+
+         <children>
+            <Button fx:id="bt1" layoutX="539.0" layoutY="25.0" mnemonicParsing="false" onAction="#excelButton" prefHeight="25.0" prefWidth="34.0" text="..." />
+
+            <Button fx:id="bt2" layoutX="539.0" layoutY="63.0" mnemonicParsing="false" onAction="#sourceButton" prefHeight="25.0" prefWidth="34.0" text="..." />
+            <Button fx:id="bt3" layoutX="539.0" layoutY="101.0" mnemonicParsing="false" onAction="#destinationButton" prefHeight="25.0" prefWidth="34.0" text="..." />
+
+
+            <Button fx:id="excelbtn" layoutX="472.0" layoutY="147.0" mnemonicParsing="false" onAction="#runButton" prefHeight="25.0" prefWidth="97.0" text="Αντιγραφή" />
+            <TextArea fx:id="textArea" layoutX="10.0" layoutY="187.0" prefHeight="176.0" prefWidth="563.0" />
+            <Label layoutX="22.0" layoutY="29.0" text="Αρχείο Excel" />
+            <Label layoutX="22.0" layoutY="67.0" text="Εισαγωγή απο:" />
+            <Label layoutX="23.0" layoutY="105.0" text="Εξαγωγή σε:" />
+            <TextField fx:id="tf1" layoutX="157.0" layoutY="25.0" prefHeight="25.0" prefWidth="315.0" />
+            <TextField fx:id="tf2" layoutX="157.0" layoutY="63.0" prefHeight="25.0" prefWidth="315.0" />
+            <TextField fx:id="tf3" layoutX="157.0" layoutY="101.0" prefHeight="25.0" prefWidth="315.0" />
+      <ProgressBar fx:id="progressBar" layoutX="14.0" layoutY="371.0" prefHeight="25.0" prefWidth="556.0" progress="0.0" />
+         </children>
+
+      </AnchorPane>
